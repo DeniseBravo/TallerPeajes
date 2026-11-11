@@ -23,3 +23,4 @@ class Vehiculo {
 };
 
 ostream &operator << (ostream &os, Vehiculo & Vehiculo);
+

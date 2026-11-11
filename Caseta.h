@@ -16,7 +16,8 @@ class Caseta{
     public:
         Caseta (string nombre, Operador* operador);
         ~Caseta ();
-
+		Caseta (const Caseta&) = delete;
+		Caseta& operator= (const Caseta&) = delete;
 
         string getNombre () const;
         Operador* getOperador () const;
