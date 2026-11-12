@@ -21,8 +21,9 @@ class Caseta{
 
         string getNombre () const;
         Operador* getOperador () const;
-        int registro (Vehiculo* vehiculo);
+        int registrar (Vehiculo* vehiculo);
         int getTotal () const;
         int getCantidadRegistros ()const;
-        int contarCategoria (const string)
+        int contarCategoria (const string);
+		void cuadrarCaja (int declaracion) const;
 }
