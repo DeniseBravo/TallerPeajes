@@ -21,5 +21,5 @@ string Carro::info () const {
 }
 
 int Carro::cobrar () const {
-	return aplicarDescuento(CARRO);
+	return descuento(CARRO);
 }
