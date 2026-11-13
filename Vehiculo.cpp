@@ -15,7 +15,7 @@ Vehiculo:: Vehiculo (string placa) : propietario (nullptr){
 
 Vehiculo:: ~Vehiculo(){}
 
-string Vehiculo:: getPlaca () const ( return placa; }
+string Vehiculo:: getPlaca () const { return placa; }
 
 void Vehiculo:: setPlaca (string placa){
 	validarPlaca (placa);
@@ -30,7 +30,7 @@ void Vehiculo:: setPropietario (Propietario* propietario){
 
 int Vehiculo:: descuento (int tarifa) const{
 	if (propietario != nullptr && propietario->esVecino())
-		return (tarifa * ((100 - DESCUENTO)/ 100));
+		return tarifa * (100 - DESCUENTO)/ 100;
 	return tarifa;
 }
 

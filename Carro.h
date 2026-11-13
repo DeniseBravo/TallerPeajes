@@ -7,7 +7,7 @@ class Carro : public Vehiculo{
     public:
         Carro (string placa, int pasajeros);
         ~Carro();
-        string getTipo ()cont override;
+        string getTipo ()const override;
         int getPasajeros () const;
         void agregarPasajero ();
         string info () const override;

@@ -11,7 +11,7 @@ class Registro {
     public:
         Registro (string placa, string categoria, int cobro);
         ~Registro();
-        string getPalca ()const;
+        string getPlaca () const;
         string getCategoria ()const;
         int getCobro ()const;
 };

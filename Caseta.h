@@ -24,6 +24,6 @@ class Caseta{
         int registrar (Vehiculo* vehiculo);
         int getTotal () const;
         int getCantidadRegistros ()const;
-        int contarCategoria (const string);
+        int contarCategoria (const string&) const;
 		void cuadrarCaja (int declaracion) const;
-}
+};

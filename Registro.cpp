@@ -9,4 +9,4 @@ Registro::~Registro (){
 	
 string Registro:: getPlaca () const {return placa; }
 string Registro:: getCategoria () const {return categoria;}
-int Registro:. getCobro () const {return cobro; }
+int Registro:: getCobro () const {return cobro; }

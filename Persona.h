@@ -10,7 +10,7 @@ class Persona {
     public:
         Persona (string nombre, string id);
         virtual ~Persona();
-        string getNombre ();
+        string getNombre () const;
         string getId () const;
         virtual string mostrar () const =0;
 };

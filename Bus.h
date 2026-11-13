@@ -7,7 +7,7 @@ class Bus : public Vehiculo{
     public:
         Bus (string placa, int puestos);
         ~Bus();
-        string getTipo ()cont override;
+        string getTipo ()const override;
         int getPuestos () const;
         string info () const override;
         int cobrar () const override;

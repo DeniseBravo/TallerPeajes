@@ -7,6 +7,6 @@ class Propietario : public Persona{
     public:
         Propietario (string nombre, string id, bool vecino);
         ~Propietario ();
-        bool esVecino ();
-        string mostrat () const override;
+        bool esVecino () const;
+        string mostrar () const override;
 };

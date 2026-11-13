@@ -7,6 +7,6 @@ Propietario::~Propietario () {}
 
 bool Propietario::esVecino () const { return vecino; }
 
-string Propietario::descripcion () const {
+string Propietario::mostrar () const {
 	return "Propietario " + nombre + " (doc. " + id + ")" + (vecino ? ", vecino de la concesion" : ", no vecino");
 }

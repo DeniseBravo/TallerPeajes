@@ -7,7 +7,7 @@ class Moto : public Vehiculo{
     public:
         Moto (string placa, int cilindraje);
         ~Moto();
-        string getTipo ()cont override;
+        string getTipo ()const override;
         int getCilindraje () const;
         bool altoCilindraje () const;
         string info () const override;

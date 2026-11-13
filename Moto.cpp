@@ -16,10 +16,10 @@ Moto::~Moto () {
 
 string Moto::getTipo () const { return "Moto"; }
 int Moto::getCilindraje () const { return cilindraje; }
-bool Moto::esAltoCilindraje () const { return cilindraje > CILINDRAJE_ALTO; }
+bool Moto::altoCilindraje () const { return cilindraje > CILINDRAJE_ALTO; }
 
 string Moto::info () const {
-	return Vehiculo::info() + " cilindraje: " + to_string(cilindraje) + " cc" + (esAltoCilindraje() ? " (alto cilindraje)" : "");
+	return Vehiculo::info() + " cilindraje: " + to_string(cilindraje) + " cc" + (altoCilindraje() ? " (alto cilindraje)" : "");
 }
 
 int Moto::cobrar () const {

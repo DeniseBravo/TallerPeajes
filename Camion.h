@@ -7,7 +7,7 @@ class Camion : public Vehiculo{
     public:
         Camion (string placa, int ejes);
         ~Camion();
-        string getTipo ()cont override;
+        string getTipo ()const override;
         int getEjes () const;
         void agregarEje ();
         string info () const override;

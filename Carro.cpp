@@ -14,7 +14,7 @@ Carro::~Carro () {
 
 string Carro::getTipo () const { return "Carro"; }
 int Carro::getPasajeros () const { return pasajeros; }
-void Carro::subirPasajero () { pasajeros++; }
+void Carro::agregarPasajero () { pasajeros++; }
 
 string Carro::info () const {
 	return Vehiculo::info() + " pasajeros: " + to_string(pasajeros);
